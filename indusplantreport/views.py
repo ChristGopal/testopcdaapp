@@ -13,7 +13,7 @@ mydb = pymysql.Connect(
 mycursor = mydb.cursor()
 
 
-mycursor.execute("SELECT * FROM datalog where OPC_IOT_FLOW_TIMESTAMP > now() - interval 1 hour ")
+mycursor.execute("SELECT * FROM newdatalog where OPC_IOT_FLOW_TIMESTAMP > now() - interval 1 hour ")
 
 
 myresult = mycursor.fetchall()
