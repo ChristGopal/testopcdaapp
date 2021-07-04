@@ -4,10 +4,10 @@ import pandas as pd
 # Create your views here.
 
 mydb = pymysql.Connect(
-    host="scadadb.c5lia4zi06l9.us-west-2.rds.amazonaws.com",
-    user="dbuser",
-    password="GkGk#cyber1204",
-    database="scadadb"
+    host="sql6.freesqldatabase.com",
+    user="sql6422998",
+    password="LRTwDMwFpC",
+    database="sql6422998"
 )
 
 mycursor = mydb.cursor()
